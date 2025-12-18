@@ -3015,7 +3015,7 @@ const authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkw
             const dorkCategories = [
                 {
                     name: '🔐 CONFIGS',
-                    description: 'Конфигурационные файлы',
+                    description: 'Кон��игурационные файлы',
                     query: `site:${domain} ext:env OR ext:conf OR ext:cfg OR ext:ini OR ext:yml`
                 },
                 {
@@ -4388,7 +4388,7 @@ const authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkw
             }
             
             if (data.vulnerabilities !== undefined) {
-                logTerminal(`║  🐛 УЯЗВИМОСТЕЙ НАЙДЕНО: ${data.vulnerabilities}`, 'info');
+                logTerminal(`║  🐛 УЯЗВИМОСТЕЙ ��АЙДЕНО: ${data.vulnerabilities}`, 'info');
                 logTerminal(`║  🔴 КРИТИЧЕСКИХ (CVSS 9+): ${data.criticalVuln}`, data.criticalVuln > 0 ? 'critical' : 'info');
                 logTerminal(`║  🟠 ВЫСОКИХ (CVSS 7-8.9): ${data.highVuln}`, data.highVuln > 0 ? 'error' : 'info');
                 if (data.cveList && data.cveList.length > 0) {
